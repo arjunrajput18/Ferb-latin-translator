@@ -1,0 +1,78 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+
+ :root{
+    --primary-color:#14b8a6;
+ }
+ body {
+     font-family: 'Coming Soon', cursive;
+     margin: 0;
+ }
+ 
+ .heading{
+     background-color:var(--primary-color);
+     text-align: center;
+     color: white;
+     width: 100%;
+     height: auto;
+     padding: 1rem 0rem;
+     font-size: 2rem;
+    
+ }
+ .footer{
+     background-color: var(--primary-color);
+     bottom: 0;
+     color: white;
+     text-align: center;
+     width: 100%;
+     padding: 2rem 0rem;
+     font-size: 1rem;
+ }
+ .container-center {
+     max-width: 400px;
+     margin: auto;
+     padding: 2rem;
+ }
+ 
+ .container-center p{
+    padding-left: 5rem;
+ }
+
+ footer p {
+     max-width: 600px;
+     margin:auto;
+     padding-top: 0.5rem;
+ }
+ 
+ textarea {
+     width: 100%;
+     height: 15vh;
+     display: block;
+     padding: 1rem;
+     margin-bottom: 1.5rem;
+     border: 1px solid black;
+     font-size: 1.2rem;
+     font-family: 'Coming Soon', cursive;
+ }
+ 
+ #txt-output {
+     width: 100%;
+     height: 15vh;
+     display: block;
+     border: 1px solid black;
+     padding: 1rem;
+     margin-bottom: 1.5rem;
+     font-size: 1.2rem;
+     font-family: 'Coming Soon', cursive;
+ }
+ 
+ #btn-translator {
+     background-color:var(--primary-color);
+     border: none;
+     padding: 1rem;
+     margin-left:10rem ;
+     font-family: 'Coming Soon', cursive;
+     color: white;
+     font-size: 1.2rem;
+ }
